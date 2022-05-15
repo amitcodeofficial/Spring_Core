@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="personalInfoS" class="com.bridgelab.diUsingSetter.PersonalInfo">
+        <property name="FirstName" value="Amit"/>
+        <property name="lastName" value="Haral"/>
+    </bean>
+
+    <bean id="personalInfoS2" class="com.bridgelab.diUsingSetter.PersonalInfo">
+        <property name="FirstName" value="Yash"/>
+        <property name="lastName" value="Kerkar"/>
+    </bean>
+
+</beans>
